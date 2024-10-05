@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ body{
+    background-image: url("/image/pexels-buro-millennial-636760-1438081.jpg");
+    background-size: cover;
+    
+    
+ }
+
+
+nav ul{
+    /* background-color: rgb(207, 221, 222); */
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    height: 13vh;
+    
+}
+nav ul li{
+    padding: 25px;
+    color: whitesmoke;
+}
+ul li a{
+    text-decoration: none;
+    color: inherit; 
+}
+#head{
+    text-align: center;
+    margin-top: 60px;
+
+    font-size: 50px;
+    /* color: rgb(160, 234, 234); */
+    color: rgb(204, 196, 196);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 180px;
+}
+
+ main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px; 
+ }
+
+    
+
+ h2.student{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(70, 175, 236);
+}
+h2.staff{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(70, 175, 236);
+}
+h2.class{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(70, 175, 236);
+}
+.student{
+    font-size: 20px;
+    color: white;
+}
+.staff{
+    font-size: 20px;
+    color: white;
+}
+.class{
+    font-size: 20px;
+    color: white;
+}
+section.student{
+    
+    margin-bottom: 15px;
+}
+section.staff{
+    margin-bottom: 15px;
+}
+section.class{
+    margin-bottom: 15px;
+}
+
+    .hamburger {
+        font-size: 30px;
+        cursor: pointer;
+        display: none; /* Initially hidden */
+        color: white;
+        background-color: black;
+        padding: 10px;
+      }
+      .nav-links {
+        display: ; /* Hidden by default */
+        justify-content: flex-end;
+        list-style-type: none;
+        background-color: ;
+        padding: 10px;
+      }
+      .nav-links.active {
+        display: flex; /* Shown when active */
+      }
+@media screen and (max-width:767px){
+    nav ul{
+        flex-direction: column;
+        margin: 0px;
+        height: auto;
+    }
+    nav ul li{
+        padding: 0;
+    }
+    .hamburger {
+        display: block; /* Show the icon on mobile */
+      }
+    #head{
+        font-size: 30px;
+        padding-right: 150px;
+        margin-top: 100px;
+    }
+    
+    
+     main{
+        flex-direction: column;
+        text-align: center;
+     }
+    }
+   @media screen and (max-width:1024px){
+    
+        .nav-links {
+            display: none; /* Hidden by default */
+            justify-content: flex-end;
+            list-style-type: none;
+            background-color: ;
+            padding: 10px;
+          }
+          .nav-links.active {
+            display: flex; /* Shown when active */
+          }
+        
+    }
+   
+        

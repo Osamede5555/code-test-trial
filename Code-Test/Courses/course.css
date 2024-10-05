@@ -1,0 +1,203 @@
+.Desktop1 {
+    width: 1336px; height: 755px; 
+    position: relative; 
+    background: white;
+}
+
+.picture {
+    width: 2039.75px; height: 1360px; 
+    left: -120px; top: -399px; 
+    position: absolute; box-shadow: 10px 10px 10px;
+    filter: blur(10px);
+}
+
+.Home {
+    width: 61px; height: 19px; 
+    left: 688px; top: 21px; 
+    position: absolute; color: white; 
+    font-size: 16px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.Search {
+    width: 437px; height: 27px; 
+    left: 488px; top: 232px; 
+    position: absolute; color: white; 
+    font-size: 32px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.CodeTestSchoolOfProgramming {
+    width: 341.85px; height: 43.15px; 
+    left: 26.12px; top: 21.98px; 
+    position: absolute; color: white; 
+    font-size: 16px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.MainRectangle {
+    width: 1336px; height: 333px; 
+    left: 0px; top: 422px; 
+    position: absolute; background: #D9D9D9;
+}
+
+.About {
+    width: 61px; height: 19px; 
+    left: 806px; top: 21px; 
+    position: absolute; color: white; 
+    font-size: 16px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.Gallery {
+    width: 61px; height: 19px; 
+    left: 924px; top: 21px; 
+    position: absolute; color: white; 
+    font-size: 16px; font-family: Gideon Roman; 
+    font-weight: 400;word-wrap: break-word;
+}
+
+.Courses {
+    width: 61px; height: 19px; 
+    left: 1061px; top: 21px; 
+    position: absolute; color: white; 
+    font-size: 16px; font-family: Gideon Roman; font-weight: 400; word-wrap: break-word;
+}
+
+.Contact {
+    width: 61px; height: 19px; 
+    left: 1201px; top: 21px; 
+    position: absolute; color: white; 
+    font-size: 16px; font-family: Gideon Roman; font-weight: 400; word-wrap: break-word;
+}
+
+.Rectangle3 {
+    width: 366px; height: 43px; left: 485px; top: 278px; 
+    position: absolute; background: #D9D9D9; border: 5px #579AF2 solid;
+}
+
+.Rectangle4 {
+    width: 291px; height: 199px; left: 49px; top: 377px; 
+    position: absolute; background: #507AB1;
+}
+
+.Rectangle5 {
+    width: 291px; height: 199px; left: 365px; top: 377px; 
+    position: absolute; background: #507AB1;
+}
+
+.Rectangle6 {
+    width: 291px; height: 199px; left: 681px; top: 377px; 
+    position: absolute; background: #507AB1;
+}
+.Rectangle7 {
+    width: 291px; height: 199px; left: 997px; top: 377px; 
+    position: absolute; background: #507AB1;
+}
+.Rectangle8 {
+    width: 291px; height: 199px; left: 49px; top: 612px; 
+    position: absolute; background: #507AB1;
+}
+.Rectangle9 {
+    width: 291px; height: 199px; left: 365px; top: 612px; 
+    position: absolute; background: #507AB1;
+}
+.Rectangle10 {
+    width: 291px; height: 199px; left: 681px; top: 612px; 
+    position: absolute; background: #507AB1;
+}
+.Rectangle11 {
+    width: 291px; height: 199px; left: 997px; top: 612px; 
+    position: absolute; background: #507AB1;
+}
+
+.Html {
+    width: 174px; height: 45px; left: 139px; top: 408px; 
+    position: absolute; color: white; 
+    font-size: 36px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.Python {
+    width: 174px; height: 45px; left: 118px; top: 654px; 
+    position: absolute; color: white; 
+    font-size: 36px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.Mysql {
+    width: 174px; height: 45px; left: 446px; top: 654px; 
+    position: absolute; color: white; 
+    font-size: 36px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.Css {
+    width: 174px; height: 45px; left: 473px; top: 413px; 
+    position: absolute; color: white; 
+    font-size: 36px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.SearchRectangle {
+    width: 291px; height: 199px; left: 365px; top: 377px; 
+    position: absolute; background: #507AB1;
+}
+
+.Javascript {
+    width: 215px; height: 45px; left: 729px; top: 413px; 
+    position: absolute; color: white; 
+    font-size: 36px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.Php {
+    width: 215px; height: 45px; left: 1105px; top: 413px; 
+    position: absolute; color: white; 
+    font-size: 36px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.Lorem1 {
+    width: 216px; height: 70px; left: 97px; top: 476px; 
+    position: absolute; color: white; 
+    font-size: 16px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.Frame1 {
+    width: 216px; height: 70px; left: 418px; top: 477px; 
+    position: absolute; justify-content: center; 
+    align-items: center; display: inline-flex;
+}
+
+.Lorem2 {
+    width: 216px; height: 70px; color: white; 
+    font-size: 16px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.Lorem3 {
+    width: 216px; height: 70px; color: white; 
+    font-size: 16px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.Lorem4 {
+    width: 216px; height: 70px; color: white; 
+    font-size: 16px; font-family: Gideon Roman; 
+    font-weight: 400; word-wrap: break-word;
+}
+
+.Frame2 {
+    width: 216px; height: 70px; left: 728px; top: 477px; 
+    position: absolute; justify-content: center; 
+    align-items: center; display: inline-flex;
+}
+
+.Frame3 {
+    width: 216px; height: 70px; left: 1035px; top: 476px; 
+    position: absolute; justify-content: center; 
+    align-items: center; display: inline-flex;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="service.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <!-- Hamburger Icon -->
+  <i class="fas fa-bars hamburger" id="hamburger"></i>
+        <nav>
+          <ul class="nav-links" id="nav-links">
+               <li><a href="/welcome/welcome.html">Home</a></li>
+                <li><a href="/About/About.html">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Courses</a></li>
+                <li><a href="/Contact/contact.html">Contact</a></li>
+                <li><a href="/Service/service.html">Services</a></li>
+                <li><a href="/Sign in/login.html">Sign in</a></li>
+                <li><a href="/News/news.html">News</a></li>
+            </ul>
+        </nav>
+
+    </header>
+      <div>
+        <h1 id="head">Code-Test School of <br>programming</h1>
+     </div>
+    <main>
+      <section class="student">
+        <h2 class="student">STUDENT ENROLMENT</h2>
+        <h3>Schools can easily enrol returning <br> students. Once a  piece of info has <br>been
+        recorded, it can be re-used <br>making your workflow very easy</h3>
+     </section>
+     <section class="staff">
+        <h2 class="staff">STAFF MANAGEMENT</h2>
+        <h3 class="assign">Now you can assign teachers to <br>
+        classes and monitor their work <br>
+       virtually. You can create groups <br>
+       for teachers and assign duties easily.</h3>
+     </section>
+     <section class="class">
+     <h2 class="class">CLASS MANAGEMENT</h2>
+     <h3>Class attendance, class room management <br>
+      continous assessment and automatic <br>
+      computation of students scores.</h3>
+     </section>
+     </main>
+     <script>
+      const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
+
+     </script>
+</body>
+</html>

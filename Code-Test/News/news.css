@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+  /* background-image: url("/codetest/ctimg/School\ d.jpg");  
+  background-color: blue; */
+  overflow: hidden;
+  background: linear-gradient(to top, rgba(0, 0, 255, 0.5), rgba(128, 0, 128, 0.5)),url("/codetest/ctimg/School\ d.jpg") no-repeat top center;
+}
+
+.container {  
+    display: flex;
+    justify-content: space-between;
+    /* width: 50%; */
+    margin: 20px;
+    padding-top: 5px;
+
+
+}
+
+    nav ul{
+        /* background-color: rgb(207, 221, 222); */
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        height: 1vh;
+        
+    }
+    nav ul li{
+        padding: 25px;
+        color: whitesmoke;
+    }
+    ul li a{
+        text-decoration: none;
+        color: inherit; 
+}
+
+.container .logo {
+    display: flex;
+    gap: 5px;
+    color: black;
+    margin: 40px;
+    
+}
+
+.container .ict {
+    color: black;
+    font-size: 1.5rem;
+    margin: 50px;
+}
+
+.news {
+    /* background-color: azure; */
+    margin-top: 5 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.news .red-container {
+    background-color: rgba(255, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 50px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.breaking {
+    background-color: blue;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 2px;
+    position: relative;
+    right: 150px;
+    bottom: 80px;
+}
+
+.read-more {
+    background-color: blue;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 2px;
+    position: relative;
+    left: 200px;
+    top: 65px;
+}
+@media screen and (max-width:767px) {
+    .news.red-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+        
+    }
+   
+
+    .read-more {
+        background-color: blue;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 2px;
+        position: relative;
+        left: -130px;
+        top: 65px;
+    }
+    nav ul{
+        flex-direction: column;
+        margin: 0px;
+        height: auto;
+    }
+    .breaking {
+        background-color: blue;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 2px;
+        position: relative;
+        right: 125px;
+        bottom: 80px;
+    
+}
+nav ul li{
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+}
+
+
